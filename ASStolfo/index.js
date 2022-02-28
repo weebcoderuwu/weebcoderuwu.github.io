@@ -1,4 +1,4 @@
-const API_URL = "https://osutracker.com/api/"
+const API_URL = "https://osutracker.com/api/";
 
 const xhr = new XMLHttpRequest();
 
