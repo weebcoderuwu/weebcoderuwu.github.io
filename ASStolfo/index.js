@@ -3,9 +3,10 @@ const API_URL = "https://osutracker.com/api/"
 const xhr = new XMLHttpRequest();
 
 function OnRequestHandeler() {
-   if (this.redystate == 4 && this.status == 200)
+   if (this.redystate == 4 && this.status == 200)  {
    
-   console.log(this.response);
+     console.log(this.response);
+   }
 }
 
 
