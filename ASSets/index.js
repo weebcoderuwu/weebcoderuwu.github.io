@@ -8,4 +8,3 @@ xhr.onload = function() {
     asd =(xhr.response)
 };
 
-HTMLParamElement 
