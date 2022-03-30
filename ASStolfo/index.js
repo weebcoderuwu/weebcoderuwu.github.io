@@ -20,11 +20,11 @@ xhr.onload = function() {
 
     //this is onlly the fuckin top play
 
-    document.getElementById("top_name").innerHTML = data.currentTop.name;
-    document.getElementById("top_id").innerHTML = data.currentTop.id;
-    document.getElementById("top_mods").innerHTML = data.currentTop.mods;
-    document.getElementById("top_pp").innerHTML = data.currentTop.pp;
-    document.getElementById("top_misses").innerHTML = data.currentTop.missCount;
+    document.getElementById("topName").innerHTML = data.currentTop.name;
+    document.getElementById("topId").innerHTML = data.currentTop.id;
+    document.getElementById("topMods").innerHTML = data.currentTop.mods;
+    document.getElementById("topPp").innerHTML = data.currentTop.pp;
+    document.getElementById("topMisses").innerHTML = data.currentTop.missCount;
     
 
 
