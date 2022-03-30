@@ -7,8 +7,6 @@ xhr.send();
 // and i spent a lot of time trying to figure out why it wouldn't work
 xhr.onload = function() {
 
-    console.log(xhr.response);
-
 
     //convert to JSON
     let data = JSON.parse(xhr.response);
@@ -18,6 +16,17 @@ xhr.onload = function() {
     document.getElementById("rank").innerHTML = data.rank;
     document.getElementById("lvl").innerHTML = data.level;
     document.getElementById("acc").innerHTML = data.acc;
-    document.getElementById("top").innerHTML = data.currentTop;
+    document.getElementById("plays").innerHTML = data.plays;
+
+    //this is onlly the fuckin top play
+
+    document.getElementById("top_name").innerHTML = data.currentTop.name;
+    document.getElementById("top_id").innerHTML = data.currentTop.id;
+    document.getElementById("top_mods").innerHTML = data.currentTop.mods;
+    document.getElementById("top_pp").innerHTML = data.currentTop.pp;
+    document.getElementById("top_misses").innerHTML = data.currentTop.missCount;
+    
+
+
 };
 
