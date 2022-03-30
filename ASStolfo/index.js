@@ -6,6 +6,9 @@ xhr.onload = function() {
 
     console.log(xhr.response);
 
+    
+
+
     let data = JSON.parse(xhr.response);
     let name = data.name;
     let recent_scores = data.recent_scores;
@@ -18,9 +21,10 @@ xhr.onload = function() {
     let recent_achievements_count = data.recent_achievements_count;
     let recent_beatmaps_count = data.recent_beatmaps_count;
     let pp = data.pp;
+
     
 
+    document.getElementById("preformance-points").innerHTML = data.pp;
 
-}
-
+};
 
