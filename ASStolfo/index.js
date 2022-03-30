@@ -18,14 +18,8 @@ xhr.onload = function() {
     document.getElementById("acc").innerHTML = data.acc;
     document.getElementById("plays").innerHTML = data.plays;
 
-    //this is onlly the fuckin top play
-
-    document.getElementById("topName").innerHTML = data.currentTop.name;
-    document.getElementById("topId").innerHTML = data.currentTop.id;
-    document.getElementById("topMods").innerHTML = data.currentTop.mods;
-    document.getElementById("topPp").innerHTML = data.currentTop.pp;
-    document.getElementById("topMisses").innerHTML = data.currentTop.missCount;
     
+  
 
 
 };
