@@ -16,7 +16,7 @@ xhr.onload = function() {
     //display on html
     document.getElementById("preformance-points").innerHTML = data.pp;
     document.getElementById("rank").innerHTML = data.rank;
-    document.getElementById("level").innerHTML = data.level;
+    document.getElementById("lvl").innerHTML = data.level;
     document.getElementById("acc").innerHTML = data.acc;
     document.getElementById("top").innerHTML = data.currentTop;
 };
