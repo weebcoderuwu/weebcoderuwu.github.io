@@ -7,7 +7,7 @@ xhr.send();
 // and i spent a lot of time trying to figure out why it wouldn't work
 xhr.onload = function() {
 
-    setInterval( xhr.send(),3000);
+    
     //convert to JSON
     let data = JSON.parse(xhr.response);
 
